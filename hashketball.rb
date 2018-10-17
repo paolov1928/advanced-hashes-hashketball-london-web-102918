@@ -195,15 +195,17 @@ end
 
 def big_shoe_rebounds
 z = []
-game_hash.each do |domicile, values1|
-  values1.each do |team_ids, values2|
-    values2.each do |player_name, stats|
-      stats.each do |stat_name, stat1|
-        if stat_name == :shoe
-          z << stat1
-
+game_hash[:home][:players].each do |player_name, stats|
+  stats.each do |stat_name, stat1|
+  if stat_name == :shoe
+  z << stat1
 end
 end
+end
+game_hash[:away][:players].each do |player_name, stats|
+  stats.each do |stat_name, stat1|
+  if stat_name == :shoe
+  z << stat1
 end
 end
 end
