@@ -176,7 +176,8 @@ game_hash[:away][:players].each do |player_name, stats|
   z << stat1
 end
 end
-end  
+end
+z
 end
 
 def player_stats(player)
