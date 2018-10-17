@@ -162,7 +162,7 @@ def team_names
   aq
 end
 
-def player_numbers(player)
+def player_numbers(team)
 game_hash
   if game_hash.dig(:home, :players, player) != nil
   game_hash[:home][:players][player][:number]
