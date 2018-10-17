@@ -167,6 +167,7 @@ z = []
 if game_hash[:home][:team_name] == team
 game_hash[:home][:players].each do |player_name, stats|
   stats.each do |stat_name, stat1|
+  if stat_name == :number
   z << stat1
 end
 end
