@@ -177,3 +177,4 @@ game_hash
   game_hash[:away][:players][player]
 end
 end  
+
