@@ -163,12 +163,10 @@ def team_names
 end
 
 def player_numbers(team)
-game_hash
-  if game_hash.dig(:home, :players, player) != nil
-  game_hash[:home][:players][player][:number]
-  else
-  game_hash[:away][:players][player][:number]
-end
+if game_hash[:home][:team_name] == team
+  game_hash[:home][:colors]
+else
+  game_hash[:away][:colors]
 end  
 
 def player_stats(player)
