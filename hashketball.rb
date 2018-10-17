@@ -210,5 +210,6 @@ end
 end
 end
 z
-z.max_by{|k,v| k}
+(z.max_by{|k,v| k})[1]
+game_hash[:home][:players][(z.max_by{|k,v| k})[1]][:rebounds]
 end
