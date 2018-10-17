@@ -145,9 +145,9 @@ end
 end  
 
 def team_colors(team)
-if game_hash.dig(:home, :team) != nil
+binding.pry
 
-end
+
 end
 
 def team_names
