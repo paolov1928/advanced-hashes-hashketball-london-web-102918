@@ -148,7 +148,7 @@ def team_colors(team)
 end
 
 def team_names
-binding.pry
+
 end
 
 def player_numbers(player)
