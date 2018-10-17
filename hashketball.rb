@@ -209,5 +209,5 @@ game_hash[:away][:players].each do |player_name, stats|
 end
 end
 end
-z.flatten
+z
 end
