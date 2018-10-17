@@ -156,7 +156,10 @@ end
 end
 
 def team_names
-
+  aq = []
+  aq << game_hash[:home][:team_name]
+  aq << game_hash[:home][:team_name]
+  aq
 end
 
 def player_numbers(player)
