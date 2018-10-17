@@ -209,7 +209,6 @@ game_hash[:away][:players].each do |player_name, stats|
 end
 end
 end
-z
-(z.max_by{|k,v| k})[1]
-game_hash[:home][:players][(z.max_by{|k,v| k})[1]][:rebounds]
+big_shoe = (z.max_by{|k,v| k})[1]
+game_hash[:home][:players][big_shoe][:rebounds]
 end
