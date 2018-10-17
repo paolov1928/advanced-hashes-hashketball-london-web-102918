@@ -146,7 +146,7 @@ end
 
 def team_colors(team)
 #team1 = team.parameterize.underscore.to_sym useful code but not necessary
-if 
+if game_hash[.dig(:home, :players, player) != nil]
 binding.pry
 
 
