@@ -167,8 +167,11 @@ z = []
 if game_hash[:home][:team_name] == team
 game_hash[:home][:players].each do |player_name, stats|
   z << stats
+end
 else
 game_hash[:away][:players].each do |player_name, stats|
+
+end
 end  
 end
 
