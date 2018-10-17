@@ -171,10 +171,13 @@ game_hash[:home][:players].each do |player_name, stats|
   z << stat1
 end
 end
+end
 else
 game_hash[:away][:players].each do |player_name, stats|
   stats.each do |stat_name, stat1|
+  if stat_name == :number
   z << stat1
+end
 end
 end
 end
