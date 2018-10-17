@@ -143,5 +143,28 @@ game_hash
 end
 end  
 
+def team_colors(team)
 
+end
 
+team_names
+
+end
+
+def player_numbers(player)
+game_hash
+  if game_hash.dig(:home, :players, player) != nil
+  game_hash[:home][:players][player][:number]
+  else
+  game_hash[:away][:players][player][:number]
+end
+end  
+
+def player_stats(player)
+game_hash
+  if game_hash.dig(:home, :players, player) != nil
+  game_hash[:home][:players][player].values
+  else
+  game_hash[:away][:players][player].values
+end
+end  
