@@ -201,6 +201,8 @@ game_hash.each do |domicile, values1|
       stats.each do |stat_name, stat1|
         if stat_name == :shoe
           z << stat1
+
+end
 end
 end
 end
