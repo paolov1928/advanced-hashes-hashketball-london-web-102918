@@ -163,8 +163,8 @@ end
 def player_stats(player)
 game_hash
   if game_hash.dig(:home, :players, player) != nil
-  game_hash[:home][:players][player].values
+  game_hash[:home][:players][player]
   else
-  game_hash[:away][:players][player].values
+  game_hash[:away][:players][player]
 end
 end  
