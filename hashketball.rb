@@ -145,7 +145,7 @@ end
 end  
 
 def team_colors(team)
-team.parameterize.underscore.to_sym
+team1 = team.parameterize.underscore.to_sym
 binding.pry
 
 
