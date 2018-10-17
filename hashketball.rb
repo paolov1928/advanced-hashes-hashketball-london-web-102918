@@ -172,8 +172,9 @@ else
   game_hash.each do |home, values1|
     values1.each do |team_ids, values2|
       values2.each do |playerz, items|
-        items
+        itlems
 end  
+end
 
 def player_stats(player)
 game_hash
