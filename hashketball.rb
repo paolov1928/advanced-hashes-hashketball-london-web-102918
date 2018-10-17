@@ -205,7 +205,7 @@ end
 game_hash[:away][:players].each do |player_name, stats|
   stats.each do |stat_name, stat1|
   if stat_name == :shoe
-  z <<[ ]stat1
+  z << [stat1, player_name]
 end
 end
 end
