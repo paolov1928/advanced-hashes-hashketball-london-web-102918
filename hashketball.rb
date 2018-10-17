@@ -172,7 +172,7 @@ else
   game_hash.each do |home, values1|
     values1.each do |team_ids, values2|
       values2.each do |playerz, items|
-        itlems
+        items
 end  
 end
 
